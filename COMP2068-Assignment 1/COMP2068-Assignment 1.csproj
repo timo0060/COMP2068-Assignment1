@@ -65,7 +65,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\game.css" />
+    <Content Include="css\reset.css" />
     <Content Include="index.html" />
+    <Content Include="Scripts\game.js" />
+    <Content Include="Scripts\lib\impress.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -75,8 +79,6 @@
     <Folder Include="assests\audio\" />
     <Folder Include="assests\fonts\" />
     <Folder Include="assests\images\" />
-    <Folder Include="css\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

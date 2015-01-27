@@ -5,8 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Divers Treasure</title>
     <!--CSS added here-->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/game.css" rel="stylesheet" />
 </head>
-<body>
+<body onload="main()">
+    <!--All the slides start here!-->
+    <div id="impress">
+        <!--Starting Slide... Let the Game begin-->
+        <div id="1" class="step slide">
+            <div class="slide-text">
+                <p>You enter the water and begin to dive downward. You come across two caves. Which one will you choose?</p>
+                <p><a href="#2">Left Cave</a></p>
+                <p><a href="#3">Right Cave</a></p>
+            </div>
+        </div>
+        <!--Left Cave-->
+        <div id="2" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>You saw the dinosaurs!!! Awesome BRO</p>
+            </div>
+            <div class="menu"><a href="#1">Menu</a></div>
+        </div>
+        <!--Right Cave-->
+        <div id="3" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>Your dad came home and didn't let you touch the switch... LAME! You're very borded.</p>
+            </div>
+            <div class="menu"><a href="#1">Menu</a></div>
+        </div>
+
+    </div>
+
     <!--Javascript added here-->
+    <script src="Scripts/lib/impress.js"></script>
+    <script src="Scripts/game.js"></script>
 </body>
 </html>
