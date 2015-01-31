@@ -48,7 +48,7 @@
     height: 700px;
     padding: 40px 60px;
 
-    background-color: #398AFA;
+    background-color: #5CBBFA;
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
@@ -74,9 +74,21 @@
 
 .options{
     margin-top: 35px;
-    border-top:2px solid black;
+    width:100%;
+    border:2px solid black;
+    border-radius:5px;
     padding-top: 25px;
+    padding-bottom: 25px;
     text-align:center;
+    height: 100%;
+    background: -webkit-linear-gradient(#5CBBFA, #035AA6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5CBBFA, #035AA6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5CBBFA, #035AA6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5CBBFA, #035AA6); /* Standard syntax (must be last) */
+}
+
+.options a{
+    padding:2px 25px;
 }
 
 p{
